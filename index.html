@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Selectors and Specificity Cheat Sheet</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h1>CSS Selectors and Specificity Cheat Sheet</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Selector</th>
+        <th>Example</th>
+        <th>Specificity</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Universal Selector</td>
+        <td>*</td>
+        <td>Low</td>
+      </tr>
+      <tr>
+        <td>Type Selector</td>
+        <td>p</td>
+        <td>Low</td>
+      </tr>
+      <tr>
+        <td>Class Selector</td>
+        <td>.highlight</td>
+        <td>Medium</td>
+      </tr>
+      <tr>
+        <td>ID Selector</td>
+        <td>#header</td>
+        <td>High</td>
+      </tr>
+      <tr>
+        <td>Descendant Selector</td>
+        <td>article p</td>
+        <td>Medium</td>
+      </tr>
+      <tr>
+        <td>Child Selector</td>
+        <td>nav > ul</td>
+        <td>High</td>
+      </tr>
+      <tr>
+        <td>Attribute Selector</td>
+        <td>input[type="text"]</td>
+        <td>Medium</td>
+      </tr>
+      <tr>
+        <td>Pseudo-class Selector</td>
+        <td>a:hover</td>
+        <td>Medium</td>
+      </tr>
+      <tr>
+        <td>Pseudo-element Selector</td>
+        <td>p::first-line</td>
+        <td>Medium</td>
+      </tr>
+      <tr>
+        <td>Specificity Example</td>
+        <td>#container .box p</td>
+        <td>High</td>
+      </tr>
+      <tr>
+        <td>!important</td>
+        <td>.important-text</td>
+        <td>Highest</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>Common CSS Properties</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Property</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>font-family</td>
+        <td>Sets the font for an element</td>
+      </tr>
+      <tr>
+        <td>color</td>
+        <td>Sets the text color</td>
+      </tr>
+      <tr>
+        <td>background-color</td>
+        <td>Sets the background color</td>
+      </tr>
+      <tr>
+        <td>border</td>
+        <td>Sets the border properties</td>
+      </tr>
+      <tr>
+        <td>padding</td>
+        <td>Sets the padding inside an element</td>
+      </tr>
+      <tr>
+        <td>margin</td>
+        <td>Sets the margin outside an element</td>
+      </tr>
+      <tr>
+        <td>text-align</td>
+        <td>Sets the horizontal alignment of text</td>
+      </tr>
+      <tr>
+        <td>line-height</td>
+        <td>Sets the height of a line of text</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
